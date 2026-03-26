@@ -40,8 +40,8 @@ Takes user input and generates a personalized open-source philosophy statement s
 ### Step 1: Open Linux Terminal (Ubuntu / WSL)
 
 ### Step 2: Navigate to the folder containing scripts
-```bash
-cd /home/linux/
+
+cd/home/linux/
 
 ##Step 3: Make scripts executable
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
