@@ -13,9 +13,9 @@ DATE=$(date)
 DISTRO=$(lsb_release -d | cut -f2)
 
 echo "===================================="
-echo " Open Source Audit — $STUDENT_NAME"
+echo " Open Source Audit — $Anandkrishnan_hairkumar"
 echo "===================================="
-echo "Software Chosen : $SOFTWARE_CHOICE"
+echo "Software Chosen : $Python"
 echo "Kernel          : $KERNEL"
 echo "User            : $USER_NAME"
 echo "Uptime          : $UPTIME"
