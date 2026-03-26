@@ -1,21 +1,23 @@
 #!/bin/bash
 # Script 1: System Identity Report
-# Author: [Your Name]
+# This script displays basic system information
 
-STUDENT_NAME="Your Name"
+# -------- Variables --------
+STUDENT_NAME="Anandkrishnan Harikumar"
 SOFTWARE_CHOICE="Python"
 
-KERNEL=$(uname -r)
-USER_NAME=$(whoami)
-UPTIME=$(uptime -p)
-DATE=$(date)
+# -------- System Information --------
+KERNEL=$(uname -r)          # Kernel version
+USER_NAME=$(whoami)         # Current user
+UPTIME=$(uptime -p)         # System uptime
+DATE=$(date)                # Current date and time
+DISTRO=$(lsb_release -d | cut -f2)   # Linux distribution
 
-DISTRO=$(lsb_release -d | cut -f2)
-
+# -------- Output --------
 echo "===================================="
-echo " Open Source Audit — $Anandkrishnan_hairkumar"
+echo " Open Source Audit — $STUDENT_NAME"
 echo "===================================="
-echo "Software Chosen : $Python"
+echo "Software Chosen : $SOFTWARE_CHOICE"
 echo "Kernel          : $KERNEL"
 echo "User            : $USER_NAME"
 echo "Uptime          : $UPTIME"
